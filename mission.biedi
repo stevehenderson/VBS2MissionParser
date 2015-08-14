@@ -1,0 +1,286 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+		ADDON[]=
+		{
+			"vbs2_people_afg_afg_man",
+			"vbs2_editor"
+		};
+	};
+	layers[]={};
+};
+class _group_0
+{
+	objectType="group";
+	height=-13.858561;
+	class Arguments
+	{
+		DISPLAY_NAME="CIVL 1-1-A-1";
+		DISPLAY_NAME_TREE="CIVL 1-1-A-1";
+		POSITION="[2492.96,2466.46,0.00143909]";
+		SIDE="CIV";
+	};
+};
+class _unit_0
+{
+	objectType="unit";
+	height=0.000000;
+	class Arguments
+	{
+		NAME="dude";
+		SIDE="civ";
+		TYPE="vbs2_af_civ_man_1";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		PLAYER="true";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		SKILL="1.00000";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		POSITION="[2492.95996, 2466.46387, 13.86000]";
+		COLOR="[0.5,1,0.5]";
+		SUB_TEAM="";
+		DISPLAY_NAME="Afghani man 1 (dude)";
+		DISPLAY_NAME_TREE="(P) (dude) Afghani man 1";
+		PARENT="_group_0";
+		PARENT_UNIT="";
+		FIRSTTASK="";
+		LOADOUT="";
+	};
+};
+class _group_1
+{
+	objectType="group";
+	height=-12.798525;
+	class Arguments
+	{
+		DISPLAY_NAME="CIVL 1-1-A-2";
+		DISPLAY_NAME_TREE="CIVL 1-1-A-2";
+		POSITION="[2577.44,2358.04,0.00144196]";
+		SIDE="CIV";
+	};
+};
+class _unit_1
+{
+	objectType="unit";
+	height=0.000003;
+	class Arguments
+	{
+		NAME="moron";
+		SIDE="civ";
+		TYPE="vbs2_af_civ_man_1_bombvest";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back.paa";
+		SKILL="0.35000";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		POSITION="[2577.43994, 2358.04419, 12.80018]";
+		COLOR="[0.5,1,0.5]";
+		SUB_TEAM="";
+		DISPLAY_NAME="Suicide Bomber 1 (moron)";
+		DISPLAY_NAME_TREE="(moron) Suicide Bomber 1";
+		PARENT="_group_1";
+		PARENT_UNIT="";
+		FIRSTTASK="";
+		LOADOUT="";
+	};
+};
+class _waypoint_0
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		POSITION="[2562.71997, 2516.38403, 13.86000]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_0";
+		PARENT_UNIT="_unit_0";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_1";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_1
+{
+	objectType="waypoint";
+	height=-0.000003;
+	class Arguments
+	{
+		POSITION="[2472.47998, 2570.52441, 13.77028]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_0";
+		PARENT_UNIT="_unit_0";
+		PREVTASK="_waypoint_0";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_4";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_4
+{
+	objectType="waypoint";
+	height=6.912325;
+	class Arguments
+	{
+		POSITION="[2402.08008, 2413.08398]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_0";
+		PARENT_UNIT="_unit_0";
+		PREVTASK="_waypoint_1";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_6";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_6
+{
+	objectType="waypoint";
+	height=-2.066999;
+	class Arguments
+	{
+		POSITION="[2635.67993, 2415.00391]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_0";
+		PARENT_UNIT="_unit_0";
+		PREVTASK="_waypoint_4";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_7
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		POSITION="[2591.52002, 2479.64404, 13.86000]";
+		TYPE="MOVE";
+		DESCRIPTION="HAHA";
+		DISPLAY_NAME="MOVE (HAHA)";
+		DISPLAY_NAME_TREE="MOVE (HAHA)";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_1";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_10";
+		AVRS_ACTION="";
+		NAME="";
+		IS_HIGHLIGHTED="1";
+	};
+};
+class _waypoint_10
+{
+	objectType="waypoint";
+	height=-0.625030;
+	class Arguments
+	{
+		POSITION="[2472.47998, 2506.52393]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_1";
+		PREVTASK="_waypoint_7";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_12";
+		AVRS_ACTION="";
+		NAME="";
+		IS_HIGHLIGHTED="1";
+	};
+};
+class _waypoint_12
+{
+	objectType="waypoint";
+	height=-0.900851;
+	class Arguments
+	{
+		POSITION="[2462.87988, 2384.92407]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_1";
+		PREVTASK="_waypoint_10";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_14";
+		AVRS_ACTION="";
+		NAME="";
+		IS_HIGHLIGHTED="1";
+	};
+};
+class _waypoint_14
+{
+	objectType="waypoint";
+	height=2.824288;
+	class Arguments
+	{
+		POSITION="[2620.31982, 2324.12402]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_1";
+		PREVTASK="_waypoint_12";
+		AVRS_ACTION="";
+		NAME="";
+		IS_HIGHLIGHTED="1";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};
